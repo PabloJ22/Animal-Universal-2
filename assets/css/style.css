@@ -29,6 +29,7 @@ input[type="submit"] {
     border: 0;
     border-radius: 50px;
     box-shadow: 2px 2px 3px #bbb;
+
 }
 
 button:hover,
@@ -38,4 +39,23 @@ input[type="submit"]:hover {
 
 button.active {
     background: #e2b00a;
+}
+
+#animal-buttons {
+    border: solid;
+    border-width: 5px;
+    padding-top: 10px;
+    text-align: center;
+    border-radius: 25px;
+
+}
+
+
+#animal-form {
+    border: dotted;
+    border-width: 5px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    text-align: center;
+    margin: 55px;
 }
